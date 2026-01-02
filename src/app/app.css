@@ -1,0 +1,9 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* full viewport height */
+}
+
+.content {
+  flex: 1;  /* takes all available vertical space */
+}

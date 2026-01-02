@@ -1,0 +1,68 @@
+.menu-bg {
+  background-image: url('/assets/images/lastbanner.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 160px); 
+  position: relative;
+  padding: 40px 0;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 0;
+}
+
+.menu-card {
+  position: relative; 
+  z-index: 1;
+  color: #FFD700;
+}
+
+.category-title {
+  border-bottom: 2px solid #28a745;
+ /* padding-bottom: 10px; */
+  color: #c4d82dff;
+  font-size: 1.2rem;
+  margin-bottom:10px;
+  background-color:green;
+  text-align:center;
+  
+  
+ /* margin-bottom: 15px;*/
+}
+
+.menu-item {
+  padding: 6px 0;
+  border-bottom: 1px dashed #ddd;
+  color: #fff;
+}
+
+.menu-item-left {
+  flex: 1;
+  padding-right: 10px;
+}
+/* max-width: 70%; */
+
+
+.menu-item-left .desc{
+    color: #9b9898ff;
+}
+.menu-price {
+  font-weight: bold;
+  color: #3bf2ffff; 
+}
+
+
+
+@media (max-width: 768px) {
+  .menu-item-left {
+    max-width: 60%;
+  }
+  .menu-price {
+    font-size: 0.9rem;
+  }
+}
+
+
